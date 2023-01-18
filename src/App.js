@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Header } from './containers';
 
 const App = () => {
   return (
-    <div>Hello world!!!</div>
+    <div className='App'>
+        <Header />
+    </div>
   )
 }
 
-export default App
+export default App;
